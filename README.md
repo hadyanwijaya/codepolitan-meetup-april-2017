@@ -50,6 +50,8 @@ Problem selanjutnya:
 
 command:
 
+```
 $ ./manage.py runserver
 $ celery -A myapp.celery:app worker -c 4  -B --loglevel=INFO
 $ python -m smtpd -n -c DebuggingServer localhost:1025
+```
